@@ -12,8 +12,8 @@ This function should accept a parameter of the name
 of the person you want to wish happy holidays,
 and return the string `` `Happy holidays, ${name}!` ``
 */
-function happyHolidaysTo (fname) {
-  return `Happy Holidays, ${fname}!`
+function happyHolidaysTo (name) {
+  return `Happy Holidays, ${name}!`
 }
 
 /*
@@ -24,8 +24,8 @@ and the name of the person you're wishing well.
 This function should return the string
 `` `Happy ${holiday}, ${name}!` ``
 */
-function happyHolidayTo (holiday, fname) {
-  return `Happy ${holiday}, ${fname}!`
+function happyHolidayTo (holiday, name) {
+  return `Happy ${holiday}, ${name}!`
 }
 
 /*
