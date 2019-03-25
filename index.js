@@ -13,7 +13,7 @@ of the person you want to wish happy holidays,
 and return the string `` `Happy holidays, ${name}!` ``
 */
 function happyHolidaysTo (name) {
-  return `Happy Holidays, ${name}!`
+  return `Happy holidays, ${name}!`
 }
 
 /*
