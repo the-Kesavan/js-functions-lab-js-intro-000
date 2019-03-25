@@ -34,6 +34,6 @@ This function should accept two parameters, the holiday name
 and number of days till that holiday. The function should
 return the string `` `It's ${days} days until ${holiday}!` ``
 */
-function happyHolidayTo (holiday, days) {
+function holidayCountdown (holiday, days) {
   return `It's ${days} days until ${holiday}!`
 }
